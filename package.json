@@ -1,0 +1,30 @@
+{
+  "name": "modulo2-projeto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandanm2/modulo2-projeto-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandanm2/modulo2-projeto-final/issues"
+  },
+  "homepage": "https://github.com/dandanm2/modulo2-projeto-final#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "path": "^0.12.7"
+  }
+}
