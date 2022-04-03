@@ -1,5 +1,5 @@
 {
-  "name": "modulo2-projeto-final",
+  "name": "catalogo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dandanm2/modulo2-projeto-final.git"
+    "url": "git+https://github.com/tatylima/catalago.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tatiana Gandra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dandanm2/modulo2-projeto-final/issues"
+    "url": "https://github.com/tatylima/catalago/issues"
   },
-  "homepage": "https://github.com/dandanm2/modulo2-projeto-final#readme",
+  "homepage": "https://github.com/tatylima/catalago#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
@@ -25,6 +25,9 @@
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0"
   }
 }
